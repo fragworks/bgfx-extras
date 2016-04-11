@@ -4,8 +4,10 @@
 What is it?
 -------------------------------------------------------------
 
-Separated from bgfx library NanoVG and ImgUI implementations. 
-It will be useful for language bindings or when you need to have these libraries in a shared library.
+Separated from [bgfx](https://github.com/bkaradzic/bgfx) library NanoVG and ImgUI implementations. 
+bgfx library doesn't ship with this libraries and uses them in some examples.
+
+It will be useful for language bindings or when you need to have NanoVG and ImgUI in a shared library.
 
 Building
 ----------------------------------------------------
