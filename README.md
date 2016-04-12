@@ -4,8 +4,8 @@
 What is it?
 -------------------------------------------------------------
 
-Separated from [bgfx](https://github.com/bkaradzic/bgfx) library NanoVG and ImgUI implementations. 
-bgfx library doesn't ship with this libraries and uses them in some examples.
+NanoVG and ImgUI libraries, used in some examples in [bgfx](https://github.com/bkaradzic/bgfx) library. 
+But bgfx library doesn't ship with these libraries.
 
 It will be useful for language bindings or when you need to have NanoVG and ImgUI in a shared library.
 
