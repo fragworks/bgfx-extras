@@ -5,7 +5,7 @@ What is it?
 -------------------------------------------------------------
 
 NanoVG and ImgUI libraries, used in some examples in [bgfx](https://github.com/bkaradzic/bgfx) library. 
-But bgfx library doesn't ship these libraries.
+Unfortunately, those libraries are not included in the bgfx library.
 
 It will be useful for language bindings or when you need to have NanoVG and ImgUI in a shared library.
 
