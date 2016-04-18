@@ -4,8 +4,8 @@
 What is it?
 -------------------------------------------------------------
 
-NanoVG library with [bgfx](https://github.com/bkaradzic/bgfx) renderer. Other libraries, like vectordispay and ImgUI may be added later.
-bgfx library doesn't ship with this libraries and uses them in some examples.
+NanoVG library, used in some examples in [bgfx](https://github.com/bkaradzic/bgfx) library. Other libraries, like vectordispay and ImgUI may be added later.
+Unfortunately, those libraries are not included in the bgfx library.
 
 It will be useful for language bindings or when you need to have NanoVG in a shared library.
 
