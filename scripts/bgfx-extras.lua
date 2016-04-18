@@ -41,6 +41,7 @@ function bgfxExtrasProject(_name, _kind, _defines)
 			path.join(BX_DIR,   "include"),
 		    path.join(BGFX_DIR, "include"),
 			path.join(BGFX_DIR, "3rdparty"),
+			path.join(BGFX_EXTRAS_DIR, "src/imgui"),
 			path.join(BGFX_EXTRAS_DIR, "src/nanovg"),
 		}
 
@@ -93,6 +94,9 @@ function bgfxExtrasProject(_name, _kind, _defines)
 		configuration {}
 
 		files {
+		    path.join(BGFX_DIR, "3rdparty/ocornut-imgui/**.cpp"),
+		    path.join(BGFX_DIR, "3rdparty/ocornut-imgui/**.h"),
+		    
 			path.join(BGFX_EXTRAS_DIR, "src/**.h"),
 			path.join(BGFX_EXTRAS_DIR, "src/**.cpp"),
 		}
