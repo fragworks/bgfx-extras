@@ -249,6 +249,7 @@ static void fons__tmpfree(void* ptr, void* up);
 #	include <string.h>
 #endif // 0
 
+#define STB_TRUETYPE_IMPLEMENTATION
 #define STBTT_DEF extern
 #include <stb/stb_truetype.h>
 

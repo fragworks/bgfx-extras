@@ -39,8 +39,8 @@ function bgfxExtrasProject(_name, _kind, _defines)
 
 		includedirs {
 			path.join(BX_DIR,   "include"),
-		    path.join(BGFX_DIR, "include"),
-			path.join(BGFX_DIR, "3rdparty"),
+            path.join(BGFX_DIR, "include"),
+            path.join(BGFX_DIR, "3rdparty"),
 			path.join(BGFX_EXTRAS_DIR, "src/nanovg"),
 		}
 
