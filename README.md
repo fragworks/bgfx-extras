@@ -4,10 +4,10 @@
 What is it?
 -------------------------------------------------------------
 
-Separated from [bgfx](https://github.com/bkaradzic/bgfx) library NanoVG and ImgUI implementations. 
+NanoVG library with [bgfx](https://github.com/bkaradzic/bgfx) renderer. Other libraries, like vectordispay and ImgUI may be added later.
 bgfx library doesn't ship with this libraries and uses them in some examples.
 
-It will be useful for language bindings or when you need to have NanoVG and ImgUI in a shared library.
+It will be useful for language bindings or when you need to have NanoVG in a shared library.
 
 Building
 ----------------------------------------------------
